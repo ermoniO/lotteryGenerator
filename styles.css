@@ -9,6 +9,7 @@
     width: 100%;
     height: 405px;
     background-position: center;
+    margin-bottom: 100px;
 
 }
 
@@ -29,11 +30,32 @@
 
 #button{
     text-align: center;
-    padding: 5px 7px;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: white;
+    border: 2px solid black;
+    margin-bottom: 100px;
+  
 }
+
+#button:hover {
+    background-color: Green;
+    color:white;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    font-size: 25px;
+
+    
+  }
 body {
     background-color: #5271FF;
-    display:flex;
+}
+
+p {
+    margin-bottom: 75px;
 }
 
 .lotteryBall {
@@ -50,4 +72,16 @@ body {
     background-color: #FFD700;
     border-radius: 50%;
     display: inline-block;
+}
+
+.lotteryNumbers {
+
+   
+}
+
+.theButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
