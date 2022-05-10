@@ -1,6 +1,7 @@
 #headLine {
     text-align: center;
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
 
@@ -9,7 +10,7 @@
     width: 100%;
     height: 405px;
     background-position: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 
 }
 
@@ -36,7 +37,8 @@
     border-radius: 20px;
     background-color: white;
     border: 2px solid black;
-    margin-bottom: 100px;
+    margin-bottom: 75px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   
 }
 
@@ -56,6 +58,7 @@ body {
 
 p {
     margin-bottom: 75px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .lotteryBall {
