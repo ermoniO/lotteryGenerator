@@ -64,19 +64,20 @@ p {
     background-color: white;
     border-radius: 50%;
     display: inline-block;
+    text-align: center;
   }
 
 #powerBall{
     height: 100px;
     width: 100px;
-    background-color: #FFD700;
+    background-color: red;
     border-radius: 50%;
     display: inline-block;
+    text-align: center;
 }
 
 .lotteryNumbers {
-
-   
+     font-size: 75px;    
 }
 
 .theButton {
@@ -84,4 +85,3 @@ p {
     align-items: center;
     justify-content: center;
   }
-}
